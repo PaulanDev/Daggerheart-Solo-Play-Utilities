@@ -1,0 +1,31 @@
+export const HeadGuard = {
+  name: "HEAD GUARD",
+  tier: 1,
+  type: "Leader",
+  desc: "A seasoned guard with a mace, a whistle, and a bellowing voice.",
+  motives: "Arrest, close gates, pin down, seek glory",
+  difficulty: 15,
+  thresholds: [7, 13],
+  hp: 7,
+  stress: 3,
+  atk: "+4",
+  weapon: { wpnName: "Mace", wpnRange: "Melee", wpnDamage: "1d10+4 phy" },
+  experiences: ["Commander +2", "Local Knowledge +2"],
+  features: [
+    {
+      name: "Rally Guards",
+      type: "Action",
+      text: "Spend 2 Fear to spotlight the Head Guard and up to 2d4 allies within Far range.",
+    },
+    {
+      name: "On My Signal",
+      type: "Reaction",
+      text: "Countdown (5). When the Head Guard is in the spotlight for the fi rst time, activate the countdown. It ticks down when a PC makes an attack roll. When it triggers, all Archer Guards within Far range make a standard attack with advantage against the nearest target within their range. If any attacks succeed on the same target, combine their damage.",
+    },
+    {
+      name: "Momentum",
+      type: "Reaction",
+      text: "When the Head Guard makes a successful attack against a PC, you gain a Fear.",
+    },
+  ],
+};
