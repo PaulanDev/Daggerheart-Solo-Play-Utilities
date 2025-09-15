@@ -1,4 +1,4 @@
-export const BEAR = {
+export const Bear = {
   name: "BEAR",
   tier: 1,
   type: "Bruiser",
