@@ -12,6 +12,12 @@ window.addEventListener("load", function () {
     )}</p>`;
   }
 
+  let TESTFEATS = TESTADV.features;
+  let TESTFEATHOLDER = "";
+  for (const feature in TESTFEATS) {
+    TESTFEATHOLDER += `<p class="adv-crad-feature"><em><strong>${TESTFEATS[feature].name} - ${TESTFEATS[feature].type}:</strong></em> ${TESTFEATS[feature].text}</p>`;
+  }
+
   TESTPARA.innerHTML = `
     <div class="adv-card">
         <p class="adv-card-name"><strong>${TESTADV.name}</strong></p>
@@ -36,6 +42,10 @@ window.addEventListener("load", function () {
     TESTADV.weapon.wpnRange
   } | ${TESTADV.weapon.wpnDamage}</p>
             ${TESTEXPS.length > 0 ? TESTEXPHOLDER : null}
+    </div>
+    <p class="adv-card-feature-title"><strong>FEATURES</strong></p>
+    <div class="adv-card-feature-list">
+      ${TESTFEATHOLDER}
     </div>
     </div>
   `;
