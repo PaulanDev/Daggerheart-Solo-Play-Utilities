@@ -40,3 +40,17 @@ body {
   padding-top: 16px;
   margin-bottom: 0px;
 }
+
+.type-checkboxes {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  user-select: none;
+}
+
+.type-sel-div {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: coral;
+}
