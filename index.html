@@ -8,7 +8,67 @@
   </head>
   <body>
     <main>
-      <p id="test-para"></p>
+      <div class="adv-selector">
+        <p class="selector-tier-title">
+          Select adversaries from the selected tiers:
+        </p>
+        <div class="tier-checkboxes">
+          <label for="tier1Sel">1</label>
+          <input type="checkbox" name="tierSel" id="tier1Sel" />
+          <label for="tier2Sel">2</label>
+          <input type="checkbox" name="tierSel" id="tier2Sel" />
+          <label for="tier3Sel">3</label>
+          <input type="checkbox" name="tierSel" id="tier3Sel" />
+          <label for="tier4Sel">4</label>
+          <input type="checkbox" name="tierSel" id="tier4Sel" />
+        </div>
+        <p class="selector-type-title">
+          Select adversaries from the selected types:
+        </p>
+        <div class="type-checkboxes">
+          <div id="bruiserSelDiv" class="type-sel-div">
+            <label for="bruiserSel">Bruiser</label>
+            <input type="checkbox" name="typeSel" id="bruiserSel" />
+          </div>
+          <div id="hordeSelDiv" class="type-sel-div">
+            <label for="hordeSel">Horde</label>
+            <input type="checkbox" name="typeSel" id="hordeSel" />
+          </div>
+          <div id="leaderSelDiv" class="type-sel-div">
+            <label for="leaderSel">Leader</label>
+            <input type="checkbox" name="typeSel" id="leaderSel" />
+          </div>
+          <div id="minionSelDiv" class="type-sel-div">
+            <label for="minionSel">Minion</label>
+            <input type="checkbox" name="typeSel" id="minionSel" />
+          </div>
+          <div id="rangedSelDiv" class="type-sel-div">
+            <label for="rangedSel">Ranged</label>
+            <input type="checkbox" name="typeSel" id="rangedSel" />
+          </div>
+          <div id="skulkSelDiv" class="type-sel-div">
+            <label for="skulkSel">Skulk</label>
+            <input type="checkbox" name="typeSel" id="skulkSel" />
+          </div>
+          <div id="socialSelDiv" class="type-sel-div">
+            <label for="socialSel">Social</label>
+            <input type="checkbox" name="typeSel" id="socialSel" />
+          </div>
+          <div id="soloSelDiv" class="type-sel-div">
+            <label for="soloSel">Solo</label>
+            <input type="checkbox" name="typeSel" id="soloSel" />
+          </div>
+          <div id="standardSelDiv" class="type-sel-div">
+            <label for="standardSel">Standard</label>
+            <input type="checkbox" name="typeSel" id="standardSel" />
+          </div>
+          <div id="supportSelDiv" class="type-sel-div">
+            <label for="supportSel">Support</label>
+            <input type="checkbox" name="typeSel" id="supportSel" />
+          </div>
+        </div>
+      </div>
+      <div id="adv-display"></div>
     </main>
     <script type="module" src="script.js"></script>
   </body>
