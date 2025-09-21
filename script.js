@@ -1,7 +1,23 @@
 import { adversaryArr } from "./importer.js";
 
-const TESTPARA = document.getElementById("test-para");
+const ADVDISPLAY = document.getElementById("adv-display");
 const TESTADV = adversaryArr[16];
+
+const tier1Sel = document.getElementById("tier1Sel");
+const tier2Sel = document.getElementById("tier2Sel");
+const tier3Sel = document.getElementById("tier3Sel");
+const tier4Sel = document.getElementById("tier4Sel");
+
+const bruiserSel = document.getElementById("bruiserSel");
+const hordeSel = document.getElementById("hordeSel");
+const leaderSel = document.getElementById("leaderSel");
+const minionSel = document.getElementById("minionSel");
+const rangedSel = document.getElementById("rangedSel");
+const skulkSel = document.getElementById("skulkSel");
+const socialSel = document.getElementById("socialSel");
+const soloSel = document.getElementById("soloSel");
+const standardSel = document.getElementById("standardSel");
+const supportSel = document.getElementById("supportSel");
 
 window.addEventListener("load", function () {
   let TESTEXPS = TESTADV.experiences;
@@ -18,7 +34,7 @@ window.addEventListener("load", function () {
     TESTFEATHOLDER += `<p class="adv-crad-feature"><em><strong>${TESTFEATS[feature].name} - ${TESTFEATS[feature].type}:</strong></em> ${TESTFEATS[feature].text}</p>`;
   }
 
-  TESTPARA.innerHTML = `
+  ADVDISPLAY.innerHTML = `
     <div class="adv-card">
         <p class="adv-card-name"><strong>${TESTADV.name}</strong></p>
         <p class="adv-card-taxo"><strong><em>Tier ${TESTADV.tier} ${
