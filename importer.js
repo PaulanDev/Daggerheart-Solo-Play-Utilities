@@ -55,6 +55,9 @@ import { ApprenticeAssassin } from "./adversaries/Tier2/ApprenticeAssassin.js";
 import { AssassinPoisoner } from "./adversaries/Tier2/AssassinPoisoner.js";
 import { MasterAssassin } from "./adversaries/Tier2/MasterAssassin.js";
 import { BattleBox } from "./adversaries/Tier2/BattleBox.js";
+import { ChaosSkull } from "./adversaries/Tier2/ChaosSkull.js";
+import { Conscript } from "./adversaries/Tier2/Conscript.js";
+import { Courtesan } from "./adversaries/Tier2/Courtesan.js";
 
 //Adversary Exporter
 export const adversaryArr = [
@@ -114,4 +117,7 @@ export const adversaryArr = [
   AssassinPoisoner,
   MasterAssassin,
   BattleBox,
+  ChaosSkull,
+  Conscript,
+  Courtesan,
 ];
