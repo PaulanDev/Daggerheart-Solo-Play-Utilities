@@ -51,7 +51,7 @@ import { TinyRedOoze } from "./adversaries/Tier1/TinyRedOoze.js";
 import { YoungDryad } from "./adversaries/Tier1/YoungDryad.js";
 import { ZombiePack } from "./adversaries/Tier1/ZombiePack.js";
 
-//Exporter
+//Adversary Exporter
 export const adversaryArr = [
   AcidBurrower,
   ArcherGuard,
