@@ -41,16 +41,24 @@ body {
   margin-bottom: 0px;
 }
 
-.type-checkboxes {
+.type-selectors,
+.tier-selectors {
   display: flex;
   justify-content: center;
   gap: 8px;
   user-select: none;
 }
 
-.type-sel-div {
+.sel-div {
   border: 1px solid black;
   border-radius: 4px;
   padding: 4px;
-  background-color: coral;
+  background-color: lightgray;
+  width: 50px;
+}
+
+.sel-div-active {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
 }
