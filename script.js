@@ -3,21 +3,24 @@ import { adversaryArr } from "./importer.js";
 const ADVDISPLAY = document.getElementById("adv-display");
 const TESTADV = adversaryArr[16];
 
-const tier1Sel = document.getElementById("tier1Sel");
-const tier2Sel = document.getElementById("tier2Sel");
-const tier3Sel = document.getElementById("tier3Sel");
-const tier4Sel = document.getElementById("tier4Sel");
+const selectionBtns = document.getElementsByClassName("sel-div");
 
-const bruiserSel = document.getElementById("bruiserSel");
-const hordeSel = document.getElementById("hordeSel");
-const leaderSel = document.getElementById("leaderSel");
-const minionSel = document.getElementById("minionSel");
-const rangedSel = document.getElementById("rangedSel");
-const skulkSel = document.getElementById("skulkSel");
-const socialSel = document.getElementById("socialSel");
-const soloSel = document.getElementById("soloSel");
-const standardSel = document.getElementById("standardSel");
-const supportSel = document.getElementById("supportSel");
+let selectedTiers = [];
+let selectedTypes = [];
+
+for (let i = 0; i < selectionBtns.length; i++) {
+  selectionBtns[i].addEventListener("click", () => {
+    selectionBtns[i].classList.toggle("sel-div-active");
+    selectedTiers = document.querySelectorAll(
+      ".sel-div.tier-sel-div.sel-div-active"
+    );
+    selectedTypes = document.querySelectorAll(
+      ".sel-div.sel-div-active.type-sel-div"
+    );
+    console.log(selectedTiers);
+    console.log(selectedTypes);
+  });
+}
 
 window.addEventListener("load", function () {
   let TESTEXPS = TESTADV.experiences;
