@@ -50,6 +50,11 @@ import { TinyGreenOoze } from "./adversaries/Tier1/TinyGreenOoze.js";
 import { TinyRedOoze } from "./adversaries/Tier1/TinyRedOoze.js";
 import { YoungDryad } from "./adversaries/Tier1/YoungDryad.js";
 import { ZombiePack } from "./adversaries/Tier1/ZombiePack.js";
+import { ArcherSquadron } from "./adversaries/Tier2/ArcherSquardron.js";
+import { ApprenticeAssassin } from "./adversaries/Tier2/ApprenticeAssassin.js";
+import { AssassinPoisoner } from "./adversaries/Tier2/AssassinPoisoner.js";
+import { MasterAssassin } from "./adversaries/Tier2/MasterAssassin.js";
+import { BattleBox } from "./adversaries/Tier2/BattleBox.js";
 
 //Adversary Exporter
 export const adversaryArr = [
@@ -104,4 +109,9 @@ export const adversaryArr = [
   TinyRedOoze,
   YoungDryad,
   ZombiePack,
+  ArcherSquadron,
+  ApprenticeAssassin,
+  AssassinPoisoner,
+  MasterAssassin,
+  BattleBox,
 ];
