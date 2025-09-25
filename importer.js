@@ -86,6 +86,28 @@ import { SpectralGuardian } from "./adversaries/Tier2/SpectralGuardian.js";
 import { Spy } from "./adversaries/Tier2/Spy.js";
 import { Stonewraith } from "./adversaries/Tier2/Stonewraith.js";
 import { WarWizard } from "./adversaries/Tier2/WarWizard.js";
+import { AdultFlickerfly } from "./adversaries/Tier3/AdultFlickerfly.js";
+import { DemonOfAvarice } from "./adversaries/Tier3/DemonOfAvarice.js";
+import { DemonOfDespair } from "./adversaries/Tier3/DemonOfDespair.js";
+import { DemonOfHubris } from "./adversaries/Tier3/DemonOfHubris.js";
+import { DemonOfJealousy } from "./adversaries/Tier3/DemonOfJealousy.js";
+import { DemonOfWrath } from "./adversaries/Tier3/DemonOfWrath.js";
+import { DireBat } from "./adversaries/Tier3/DireBat.js";
+import { Dryad } from "./adversaries/Tier3/Dryad.js";
+import { ElementalSpark } from "./adversaries/Tier3/ElementalSpark.js";
+import { GreaterEarthElemental } from "./adversaries/Tier3/GreaterEarthElemental.js";
+import { GreaterWaterElemental } from "./adversaries/Tier3/GreaterWaterElemental.js";
+import { HugeGreenOoze } from "./adversaries/Tier3/HugeGreenOoze.js";
+import { Hydra } from "./adversaries/Tier3/Hydra.js";
+import { Monarch } from "./adversaries/Tier3/Monarch.js";
+import { OakTreant } from "./adversaries/Tier3/OakTreant.js";
+import { TreantSapling } from "./adversaries/Tier3/TreantSapling.js";
+import { HeadVampire } from "./adversaries/Tier3/HeadVampire.js";
+import { Vampire } from "./adversaries/Tier3/Vampire.js";
+import { VaultGuardianGaoler } from "./adversaries/Tier3/VaultGuardianGaoler.js";
+import { VaultGuardianSentinel } from "./adversaries/Tier3/VaultGuardianSentinel.js";
+import { VaultGuardianTurret } from "./adversaries/Tier3/VaultGuardianTurret.js";
+import { YoungIceDragon } from "./adversaries/Tier3/YoungIceDragon.js";
 
 //Adversary Exporter
 export const adversaryArr = [
@@ -176,4 +198,26 @@ export const adversaryArr = [
   Spy,
   Stonewraith,
   WarWizard,
+  AdultFlickerfly,
+  DemonOfAvarice,
+  DemonOfDespair,
+  DemonOfHubris,
+  DemonOfJealousy,
+  DemonOfWrath,
+  DireBat,
+  Dryad,
+  ElementalSpark,
+  GreaterEarthElemental,
+  GreaterWaterElemental,
+  HugeGreenOoze,
+  Hydra,
+  Monarch,
+  OakTreant,
+  TreantSapling,
+  HeadVampire,
+  Vampire,
+  VaultGuardianGaoler,
+  VaultGuardianSentinel,
+  VaultGuardianTurret,
+  YoungIceDragon,
 ];
