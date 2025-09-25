@@ -58,6 +58,34 @@ import { BattleBox } from "./adversaries/Tier2/BattleBox.js";
 import { ChaosSkull } from "./adversaries/Tier2/ChaosSkull.js";
 import { Conscript } from "./adversaries/Tier2/Conscript.js";
 import { Courtesan } from "./adversaries/Tier2/Courtesan.js";
+import { CultAdept } from "./adversaries/Tier2/CultAdept.js";
+import { CultFang } from "./adversaries/Tier2/CultFang.js";
+import { CultInitiate } from "./adversaries/Tier2/CultInitiate.js";
+import { DemonicHoundPack } from "./adversaries/Tier2/DemonicHoundPack.js";
+import { ElectricEels } from "./adversaries/Tier2/ElectricEels.js";
+import { EliteSoldier } from "./adversaries/Tier2/EliteSoldier.js";
+import { FailedExperiment } from "./adversaries/Tier2/FailedExperiment.js";
+import { GiantBeastmaster } from "./adversaries/Tier2/GiantBeastmaster.js";
+import { GiantBrawler } from "./adversaries/Tier2/GiantBrawler.js";
+import { GiantEagle } from "./adversaries/Tier2/GiantEagle.js";
+import { GiantRecruit } from "./adversaries/Tier2/GiantRecruit.js";
+import { Gorgon } from "./adversaries/Tier2/Gorgon.js";
+import { JuvenileFlickerfly } from "./adversaries/Tier2/JuvenileFlickerfly.js";
+import { KnightOfTheRealm } from "./adversaries/Tier2/KnightOfTheRealm.js";
+import { MaskedThief } from "./adversaries/Tier2/MaskedThief.js";
+import { MerchantBaron } from "./adversaries/Tier2/MerchantBaron.js";
+import { MinotaurWrecker } from "./adversaries/Tier2/MinotaurWrecker.js";
+import { MortalHunter } from "./adversaries/Tier2/MortalHunter.js";
+import { RoyalAdvisor } from "./adversaries/Tier2/RoyalAdvisor.js";
+import { SecretKeeper } from "./adversaries/Tier2/SecretKeeper.js";
+import { Shark } from "./adversaries/Tier2/Shark.js";
+import { Siren } from "./adversaries/Tier2/Siren.js";
+import { SpectralArcher } from "./adversaries/Tier2/SpectralArcher.js";
+import { SpectralCaptain } from "./adversaries/Tier2/SpectralCaptain.js";
+import { SpectralGuardian } from "./adversaries/Tier2/SpectralGuardian.js";
+import { Spy } from "./adversaries/Tier2/Spy.js";
+import { Stonewraith } from "./adversaries/Tier2/Stonewraith.js";
+import { WarWizard } from "./adversaries/Tier2/WarWizard.js";
 
 //Adversary Exporter
 export const adversaryArr = [
@@ -120,4 +148,32 @@ export const adversaryArr = [
   ChaosSkull,
   Conscript,
   Courtesan,
+  CultAdept,
+  CultFang,
+  CultInitiate,
+  DemonicHoundPack,
+  ElectricEels,
+  EliteSoldier,
+  FailedExperiment,
+  GiantBeastmaster,
+  GiantBrawler,
+  GiantEagle,
+  GiantRecruit,
+  Gorgon,
+  JuvenileFlickerfly,
+  KnightOfTheRealm,
+  MaskedThief,
+  MerchantBaron,
+  MinotaurWrecker,
+  MortalHunter,
+  RoyalAdvisor,
+  SecretKeeper,
+  Shark,
+  Siren,
+  SpectralArcher,
+  SpectralCaptain,
+  SpectralGuardian,
+  Spy,
+  Stonewraith,
+  WarWizard,
 ];
