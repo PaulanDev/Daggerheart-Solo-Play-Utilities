@@ -26,9 +26,11 @@ for (let i = 0; i < selectionBtns.length; i++) {
 
     //Display cards
     if (selectedTiers.length == 0 && selectedTypes.length == 0) {
+      /*
       for (let i = 0; i < adversaryArr.length; i++) {
         ADVDISPLAY.innerHTML += createAdvCard(adversaryArr[i]);
       }
+        */
     } else if (selectedTypes.length > 0 && selectedTiers.length == 0) {
       for (let i = 0; i < adversaryArr.length; i++) {
         if (selectedTypes.includes(adversaryArr[i].type.toLowerCase())) {
@@ -54,6 +56,7 @@ for (let i = 0; i < selectionBtns.length; i++) {
   });
 }
 
+/*
 //Create cards on load
 window.addEventListener("load", function () {
   //If there are no selected parameters for tier or type
@@ -61,3 +64,4 @@ window.addEventListener("load", function () {
     ADVDISPLAY.innerHTML += createAdvCard(adversaryArr[i]);
   }
 });
+*/
