@@ -48,6 +48,7 @@ import { TangleBramble } from "./adversaries/Tier1/TangleBramble.js";
 import { TangleBrambleSwarm } from "./adversaries/Tier1/TangleBrambleSwarm.js";
 import { TinyGreenOoze } from "./adversaries/Tier1/TinyGreenOoze.js";
 import { TinyRedOoze } from "./adversaries/Tier1/TinyRedOoze.js";
+import { Weaponmaster } from "./adversaries/Tier1/Weaponmaster.js";
 import { YoungDryad } from "./adversaries/Tier1/YoungDryad.js";
 import { ZombiePack } from "./adversaries/Tier1/ZombiePack.js";
 import { ArcherSquadron } from "./adversaries/Tier2/ArcherSquardron.js";
@@ -108,6 +109,24 @@ import { VaultGuardianGaoler } from "./adversaries/Tier3/VaultGuardianGaoler.js"
 import { VaultGuardianSentinel } from "./adversaries/Tier3/VaultGuardianSentinel.js";
 import { VaultGuardianTurret } from "./adversaries/Tier3/VaultGuardianTurret.js";
 import { YoungIceDragon } from "./adversaries/Tier3/YoungIceDragon.js";
+import { ArchNecromancer } from "./adversaries/Tier4/ArchNecromancer.js";
+import { FallenShockTroop } from "./adversaries/Tier4/FallenShockTroop.js";
+import { FallenSorcerer } from "./adversaries/Tier4/FallenSorcerer.js";
+import { FallenWarlordRealmBreaker } from "./adversaries/Tier4/FallenWarlordRealmBreaker.js";
+import { FallenWarlordUndefeatedChampion } from "./adversaries/Tier4/FallenWarlordUndefeatedChampion.js";
+import { HallowedArcher } from "./adversaries/Tier4/HallowedArcher.js";
+import { HallowedSoldier } from "./adversaries/Tier4/HallowedSoldier.js";
+import { HighSeraph } from "./adversaries/Tier4/HighSeraph.js";
+import { Kraken } from "./adversaries/Tier4/Kraken.js";
+import { OracleOfDoom } from "./adversaries/Tier4/OracleOfDoom.js";
+import { OuterRealmsAbomination } from "./adversaries/Tier4/OuterRealmsAbomination.js";
+import { OuterRealmsCorrupter } from "./adversaries/Tier4/OuterRealmsCorrupter.js";
+import { OuterRealmsThrall } from "./adversaries/Tier4/OuterRealmsThrall.js";
+import { VolcanicDragonObsidianPredator } from "./adversaries/Tier4/VolcanicDragonObsidianPredator.js";
+import { VolcanicDragonMoltenScourge } from "./adversaries/Tier4/VolcanicDragonMoltenScourge.js";
+import { VolcanicDragonAshenTyrant } from "./adversaries/Tier4/VolcanicDragonAshenTyrant.js";
+import { PerfectedZombie } from "./adversaries/Tier4/PerfectedZombie.js";
+import { ZombieLegion } from "./adversaries/Tier4/ZombieLegion.js";
 
 //Adversary Exporter
 export const adversaryArr = [
@@ -160,6 +179,7 @@ export const adversaryArr = [
   TangleBrambleSwarm,
   TinyGreenOoze,
   TinyRedOoze,
+  Weaponmaster,
   YoungDryad,
   ZombiePack,
   ArcherSquadron,
@@ -220,4 +240,22 @@ export const adversaryArr = [
   VaultGuardianSentinel,
   VaultGuardianTurret,
   YoungIceDragon,
+  ArchNecromancer,
+  FallenShockTroop,
+  FallenSorcerer,
+  FallenWarlordRealmBreaker,
+  FallenWarlordUndefeatedChampion,
+  HallowedArcher,
+  HallowedSoldier,
+  HighSeraph,
+  Kraken,
+  OracleOfDoom,
+  OuterRealmsAbomination,
+  OuterRealmsCorrupter,
+  OuterRealmsThrall,
+  VolcanicDragonObsidianPredator,
+  VolcanicDragonMoltenScourge,
+  VolcanicDragonAshenTyrant,
+  PerfectedZombie,
+  ZombieLegion,
 ];
